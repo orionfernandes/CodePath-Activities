@@ -1,7 +1,7 @@
 print("Welcome to the Food Ordering System !")
 print("STARBUCKS MENU \n")
 
-menu=["1 Iced Coffee", "2 Blonde Roast", "3 Matcha Latte", "4 Cold Brew", "5 Caramel Macchiato", "6 Pumpkin Spice Latte", "7 Peppermint Mocha", "8 Iced Green Lemonade", "9 Mango Dragonfruit Refresher", "10 Iced Dirty Chai Latte"]
+menu = ["1 Iced Coffee", "2 Blonde Roast", "3 Matcha Latte", "4 Cold Brew", "5 Caramel Macchiato", "6 Pumpkin Spice Latte", "7 Peppermint Mocha", "8 Iced Green Lemonade", "9 Mango Dragonfruit Refresher", "10 Iced Dirty Chai Latte"]
 
 for i in range(len(menu)):
 	print(menu[i],"\n")
