@@ -4,7 +4,10 @@ inp = input("Enter numbers to list: (n to stop): ")
 list.append(inp)
 
 
-def count_eo(list):
+if not list:
+	print(list)
+
+def count_even_odd(list):
 	e = 0  	# even counter set to 0
 	o = 0	# odd counter set to 0
 	for i in range(len(list)):
@@ -19,12 +22,12 @@ def count_eo(list):
 
 
 while (inp!='n'):
-	inp = input("Enter numbers to list -  (n to stop): ")
+	inp = input("Enter numbers to list: (n to stop): ")
 	list.append(inp)
 	
 	
 if inp == 'n':
 	list.pop(-1)
 	print("Your list is: ", list)
-	count_eo(list)
+	count_even_odd(list)
 
