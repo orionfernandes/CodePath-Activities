@@ -12,5 +12,6 @@ def firstRepeatedWord(sentence):
 
 
 
+        
 sentence = "Mary had a Little lamb little lamb"
 print(firstRepeatedWord(sentence))
