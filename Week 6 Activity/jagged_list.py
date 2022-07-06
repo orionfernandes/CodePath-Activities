@@ -11,5 +11,4 @@ def is_jagged(list):
 		
 	print(result)
 
-
 is_jagged(list)
