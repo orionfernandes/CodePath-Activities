@@ -21,6 +21,6 @@ def find_substring(lst, w):
 	print(lists)	
 
 
-	print(", ".join(map(str,lists)))
+	print(" ".join(map(str,lists)))
 
 find_substring(lst, w)
