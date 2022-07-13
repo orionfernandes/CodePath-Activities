@@ -16,3 +16,17 @@ def check(l, m):
 		j+=1		
 
 check(string, sub)
+
+
+
+#def find_substring(str, sub):
+#  ptr1 = 0
+#  ptr2 = len(sub)
+#
+#  while ptr2 <= len(str):
+#    if str[ptr1:ptr2] == sub:
+#       print("Found Substring at Index", ptr1)
+#    ptr1 += 1
+#    ptr2 += 1
+#
+#find_substring("catdogcat", "dog")
