@@ -65,7 +65,6 @@ def wordfinder(word, lst):
     h = h.join(g)       # converting list to string
     
     print(h)
-    print(g)
 
     for k in range(len(h)):
         if h[ptr5:ptr6] == word:
@@ -74,6 +73,8 @@ def wordfinder(word, lst):
         ptr6 +=1
         
     r = h[::-1]         # reversing string
+
+    print(r)
     
     for l in range(len(r)):
         if r[ptr7:ptr8] == word:
